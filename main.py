@@ -12,6 +12,8 @@ app.version = "0.0.1"
 
 # Agregamos middleware para errores
 app.add_middleware(ErrorHandler)
+
+# Agregamos las rutas
 app.include_router(movie_router)
 app.include_router(user_router)
 
