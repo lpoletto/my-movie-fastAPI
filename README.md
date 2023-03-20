@@ -7,7 +7,7 @@ Para ejecutar la API debes seguir las siguentes instrucciones en una terminal:
 # Windows
 ```sh
 python -m venv venv
-venv\Scrips\activate
+venv\Scripts\activate
 python -m pip install -r requirements.txt
 uvicorn main:app --reload
 ```
